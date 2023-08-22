@@ -3,10 +3,10 @@ import Game from "../ttt_node/game.js";
 import View from "./ttt-view.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const el = document.getElementById("container")
+  const box = document.getElementsByClassName("ttt")
 });
 
-const game = new Game () 
+const game = new Game () ;
 
-const view = new View(game, el)
+const view = new View(game, box);
 
