@@ -1,8 +1,10 @@
 class View {
   constructor(game, el) {
+
   }
   
   setupBoard() {
+    
   }
   
   handleClick(e) {
